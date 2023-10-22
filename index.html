@@ -7,8 +7,21 @@
   <link rel="stylesheet"  href="style.css"> 
 </head>
 <body>
-  
-
+  <div class="container">
+    <div class="input-container">
+      <div class="entry">
+        <input id="input" placeholder="Enter Your Todo...">
+      </div>
+      <div class="buttons">
+        <button id="submit" onclick="submit()">Submit</button>
+        <button id="delete" onclick="deleteItem()">Delete Last Item</button>
+      </div>
+    </div>
+    <div class="todo-container">
+      <ul id="todo-ul">
+      </ul>
+    </div>
+  </div>
   <script src="01.js"></script>
 </body>
 </html>
